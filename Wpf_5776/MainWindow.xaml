@@ -1,0 +1,8 @@
+﻿<Window x:Class="Wpf_5776.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Canvas x:Name="myCanvas" Background="#eeffee" MouseDown="myCanvas_MouseDown" >
+        <Rectangle Fill="Black" Height="28" Canvas.Left="42" Stroke="Black" Canvas.Top="160" Width="105"/>
+    </Canvas>
+</Window>
